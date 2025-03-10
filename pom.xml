@@ -20,7 +20,7 @@
 					</goals>
 					<configuration>
 						<headerType>gui</headerType>
-						<outfile>${project.build.directory}/${project.build.finalName}.exe</outfile>
+						<outfile>${project.build.directory}/App.exe</outfile>
 						<jar>${project.build.directory}/${project.build.finalName}.jar</jar>
 						<errTitle>App Error</errTitle>
 						<classPath>
